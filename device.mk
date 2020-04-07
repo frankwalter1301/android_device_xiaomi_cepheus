@@ -120,8 +120,8 @@ PRODUCT_PACKAGES += \
     android.frameworks.displayservice@1.0 \
     android.hardware.camera.provider@2.4-impl \
     android.hardware.camera.provider@2.4-service_64 \
-    libxml2 \
-    Snap
+    libxml2 #\
+    #Snap
 
 # CNE
 PRODUCT_PACKAGES += \
@@ -190,12 +190,12 @@ PRODUCT_PACKAGES += \
     android.hidl.manager@1.0_system
 
 # IFAA manager
-PRODUCT_PACKAGES += \
-    IFAAService \
-    org.ifaa.android.manager
+##PRODUCT_PACKAGES += \
+##    IFAAService \
+##    org.ifaa.android.manager
 
-PRODUCT_BOOT_JARS += \
-    org.ifaa.android.manager
+##PRODUCT_BOOT_JARS += \
+##    org.ifaa.android.manager
 
 # IMS
 PRODUCT_PACKAGES += \
